@@ -1,9 +1,36 @@
 body{
     
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
 
 h1{
     font-size: 50px;
+}
+.ORANGE{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.halfwi{
+    width: 50%;
+    padding-left: 5%;
+}
+.halfwi img{
+    width: 80%;
+}
+
+.linkbutton{
+    text-decoration: none;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
