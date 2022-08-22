@@ -8,15 +8,18 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .ORANGE{
     color: orangered;
 }
-section{
+.flxc{
     display: flex;
     margin-bottom: 150px;
 }
 .halfwi{
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
 }
 .halfwi img{
@@ -39,4 +42,25 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expi{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+#full{
+
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
